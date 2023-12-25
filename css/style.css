@@ -1,0 +1,86 @@
+#anim {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 100px;
+  }
+  .main {
+    margin: 200px auto;
+    text-align: center;
+    height: 100px;
+  }
+  .col {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    height: 0px;
+    width: 0px;
+    vertical-align: middle;
+    background-color: green;
+    margin-left: 15px;
+   animation: chiq 2s linear 0s forwards;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+  }
+
+  .col-1 {
+    margin-left: 0;
+  }
+
+  @keyframes chiq {
+
+    0% {
+      height: 50px;
+      width: 5px;
+      background-color: green;
+    }
+    50% {
+      height: 100px;
+      background-color: yellow;
+    }
+    100% {
+      height: 50px;
+      width: 5px;
+      background-color:green;
+    }
+  }
+
+  .col-1 {
+    animation-delay: 0s;
+  }
+
+  .col-2 {
+    animation-delay: 0.5s;
+  }
+  .col-3 {
+    animation-delay: 0.1s;
+  }
+  .col-4 {
+    animation-delay: 0.15s;
+  }
+  .col-5 {
+    animation-delay: 0.2s;
+  }
+  .col-6 {
+    animation-delay: 0.25s;
+  }
+  .col-7 {
+    animation-delay: 0.3s;
+  }
+  .col-8 {
+    animation-delay: 0.35s;
+  }
+  .col-9 {
+    animation-delay: 0.4s;
+  }
+  .col-10 {
+    animation-delay: 0.45s;
+  }
+  .col-11 {
+    animation-delay: 0.5s;
+  }
+  .col-12 {
+    animation-delay: 0.55s;
+  }
